@@ -1,0 +1,17 @@
+<servlet>
+    <servlet-name>SaveProfilePictureServlet</servlet-name>
+    <servlet-class>com.fitness.servlets.SaveProfilePictureServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>SaveProfilePictureServlet</servlet-name>
+    <url-pattern>/api/profile/picture/save</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>GetProfilePictureServlet</servlet-name>
+    <servlet-class>com.fitness.servlets.GetProfilePictureServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>GetProfilePictureServlet</servlet-name>
+    <url-pattern>/api/profile/picture</url-pattern>
+</servlet-mapping>
